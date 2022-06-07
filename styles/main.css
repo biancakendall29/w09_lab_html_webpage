@@ -1,0 +1,23 @@
+body {
+    margin: auto;
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: whitesmoke;
+}
+
+body div#container {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+div header#header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+
+nav#nav-bar {
+
+}
