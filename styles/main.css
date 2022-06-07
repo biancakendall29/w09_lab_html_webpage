@@ -1,8 +1,8 @@
 body {
     margin: auto;
-    width: 90%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    width: 95%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     background-color: whitesmoke;
 }
 
@@ -15,9 +15,63 @@ body div#container {
 div header#header-container {
     display: flex;
     justify-content: space-between;
-    background-color: blanchedalmond;
+    background-color: white;
 }
 
-nav#nav-bar {
-
+nav#nav-bar > ul {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
 }
+
+nav#nav-bar > ul > li {
+    list-style: none;
+    display: block;
+    padding: 1rem;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+nav#nav-bar > ul > li > a{
+    text-decoration: none;
+    color: #222;
+}
+
+nav#nav-bar > ul > li > a:hover{
+    color: blueviolet;
+}
+
+.header-bottom  {
+    display: flex;
+    flex-direction: column;
+    background-color: cornsilk;
+    text-align: center;
+    padding-left: 33%;
+    padding-right: 33%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 12% 3% 18% 3% 18% 3% 18% 3% 18%
+    /* grid-template-rows: 18rem 3rem 20rem 3rem 20rem 3rem 20rem 3rem 20rem */
+}
+
+.grid-row {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.grid-item {
+    background-color: cornsilk;
+    text-align: center;
+    font-size: 1.1;
+    font-weight: 600;
+}
+
+.grid-item > a:hover{
+    border: 3rem;
+    border-width: 3rem;
+    border-color: blueviolet;
+}
+
+
