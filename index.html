@@ -7,26 +7,65 @@
     <title>Piscine Ice Cream</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <div id="container">
+    <header id="header-container">
+        <img src="images/logo2.jpg" alt="Ice Cream Logo"  width="50" height="50">
+        <div id="header-right-column" >
+        <nav id="nav-bar">
             <ul>
-                <li><img src="images/logo2.jpg" alt="Ice Cream Logo"  width="50" height="50"> </li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Collections</a></li>
-                <li><a href="">Pricelist</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">My Basket</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Pricelist</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">My Basket</a></li>
             </ul>
         </nav>
+        </div>
+        <div id="header-bottom">
         <img src="https://source.unsplash.com/66IZaW9LIpI/500x200" alt="Row of Ice Cream Flavours">
         <h1>PISCINE ICE CREAMS</h1>
         <!-- drop down menu  -->
+        </div>
     </header>
-    <main>
-        <h2>Classic Flavours</h2>
+    <main class="grid-container">
+        <div class="grid-row">
+            <h2>Classic Flavours</h2>
+            <figure class="grid-item">
+                <img src="https://source.unsplash.com/iT4qcNMhYTQ/300x300" alt="Vanilla ice cream">
+                <figcaption>Madagascan Vanilla</figcaption>
+                <a href="#"><img src="images/basket.jpg" alt="Basket icon" width="50" height="50"></a>
+            </figure>
+            <figure class="grid-item">
+                <img src="https://source.unsplash.com/wxmrTxUAMJE/300x300 " alt="Chocolate ice cream">
+                <figcaption>Dark Chocolate</figcaption>
+                <a href="#"><img src="images/basket.jpg" alt="Basket icon" width="50" height="50"></a>
+            </figure>
+            <figure class="grid-item">
+                <img src="https://source.unsplash.com/XlBkpiB2nRw/300x300" alt="Strawberry ice cream">
+                <figcaption>Strawberry</figcaption>
+                <a href="#"><img src="images/basket.jpg" alt="Basket icon" width="50" height="50"></a>
+            </figure>
+        </div>    
+     
+        <div class="grid-row">
+            <h2>Speciality Flavours</h2>
+            <figure class="grid-item">
+                <img src="https://source.unsplash.com/QNyRp21hb5I/300x300" alt="Birthday cake ice cream">
+                <figcaption>Birthday Cake</figcaption>
+                <a href="#"><img src="images/basket.jpg" alt="Basket icon" width="50" height="50"></a>
+            </figure>
+            <figure class="grid-item">
+                <img src="https://source.unsplash.com/fOXvuWswMDs/300x300 " alt="Bubbles">
+                <figcaption>Champagne Rosewater</figcaption>
+                <a href="#"><img src="images/basket.jpg" alt="Basket icon" width="50" height="50"></a>
+            </figure>
+            <figure class="grid-item">
+                <img src="https://source.unsplash.com/nKyAtvyTcuA/300x300" alt="Basil">
+                <figcaption>Basil White Chocolate</figcaption>
+                <a href="#"><img src="images/basket.jpg" alt="Basket icon" width="50" height="50"></a>
+            </figure>
+        </div>   
 
-
-        <h2>Speciality Flavours</h2>
 
         <h2>Limited Edition / Seasonal Flavours</h2>
 
@@ -34,5 +73,6 @@
 
 
     </main>
+    </div>
 </body>
 </html>
